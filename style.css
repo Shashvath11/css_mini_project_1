@@ -1,43 +1,45 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box ;
+    box-sizing: border-box;
 }
 body{
-    margin:0.5rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
 nav{
     border: 2px solid black;
     border-radius: 2rem;
     margin: 0 auto 1rem;
-    max-width: 500px;
     font-size: 1.8rem;
+    max-width: 500px;
     line-height: 4rem;
 }
 h1{
-    padding: 1rem ;
     background-color: gold;
-    border-radius: 2rem 2rem 0 0 ;
+    border-radius: 2rem 2rem 0 0;
+    padding: 1.6rem ;
 }
+
 ul{
     list-style-type: none;
 }
 li{
-    border-top: 1px solid black;
+    border-top: 2px dashed navy;
 }
 li a, li:visited{
     text-decoration: none;
-    color: black;
+    color: navy;
 }
 li a:hover, li a:focus{
-    background-color: black;
-    color: aliceblue;
+    background-color: navy;
+    color:azure;
 }
 li a{
     display: block;
 }
+
 li:last-child a{
     border-radius: 0 0 2rem 2rem;
 }
