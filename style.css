@@ -43,3 +43,24 @@ li a{
 li:last-child a{
     border-radius: 0 0 2rem 2rem;
 }
+
+p{
+    color: blueviolet;
+    padding: 3px;
+    border: 2px double black;
+    margin-left: 8rem;
+    margin-right: 8rem;
+
+}
+p a, p a :visited{
+    text-decoration: none;
+    color: rgb(111, 178, 44);
+}
+p a:hover, p a:focus{
+    background-color: black;
+    color: antiquewhite;
+}
+p:hover{
+    background-color: brown;
+    color: aliceblue;
+}
